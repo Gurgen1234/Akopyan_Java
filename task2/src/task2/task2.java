@@ -15,7 +15,7 @@ public class task2 {
 	ArrayList<Double> d = new ArrayList<Double>();
     String line = "";
 	try {
-	File file = new File(args[1]);
+	File file = new File(args[0]);
 	FileReader fr = new FileReader(file);
     BufferedReader reader = new BufferedReader(fr);
     line = reader.readLine();
